@@ -195,33 +195,33 @@ If your static website uses HTTPS and you have multiple servers set up for load 
 
 ---
 
-# Updating DNS Records for Nginx Load Balancer Servers
+## Updating DNS Records for Nginx Load Balancer Servers
 
 To ensure that your domain correctly points to the IP addresses of your Nginx load balancer servers, you need to update the DNS records at your domain registrar. Follow the steps below to achieve this.
 
-## Login to Your Domain Registrar
+### Login to Your Domain Registrar
 
 1. Visit the website of the company where you registered your domain (e.g., GoDaddy, Namecheap).
 2. Log in to your account.
 
-## Find DNS Settings or Domain Management
+### Find DNS Settings or Domain Management
 
 3. Navigate to the domain management or DNS settings section of your account. Look for options like "DNS Management" or "Domain Settings."
 
-## Locate DNS Records
+### Locate DNS Records
 
 4. Look for a section that displays your domain's DNS records. This might be labeled as "DNS Records" or "Name Servers."
 
-## Update A Records or DNS Entries
+### Update A Records or DNS Entries
 
 5. Locate the A records or DNS entries associated with your domain. These records specify the IP addresses where your domain points.
 6. Update the IP addresses to the ones of your Nginx load balancer servers. You will typically find fields for the hostname (usually '@' or your domain name) and IP address.
 
-## Save Changes
+### Save Changes
 
 7. After updating the A records, save your changes. This process may take some time to propagate throughout the internet.
 
-## Verify the Update
+### Verify the Update
 
 8. To confirm the update, you can use online DNS lookup tools or wait for the changes to propagate and then visit your website using your domain name in a web browser.
 
